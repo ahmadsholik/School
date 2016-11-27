@@ -1,0 +1,18 @@
+{% extends 'belle/base.html' %}
+
+{% block body %}
+
+    <h1>Belle!!!</h1>
+    <h6>like the from the movie but also like a literal bell!</h6>
+
+    <hr>
+
+    <div id="links">
+        <h2>Links!!!</h2>
+        <ul>
+            <li><a href="{% url 'belle:color_scheme' %}">Future Color Scheme</a></li>
+            <li><a href="{% url 'belle:this_week' %}">This Week</a></li>
+        </ul>
+    </div>
+
+{% endblock %}

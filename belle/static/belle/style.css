@@ -1,0 +1,21 @@
+/*
+
+Color scheme:
+
+#fff66a
+#ffe200
+#ffc900
+#502f00
+#412000
+
+*/
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    /*I hate bullet points*/
+}

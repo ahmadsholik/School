@@ -1,0 +1,16 @@
+{% extends 'belle/base.html' %}
+
+{% block body %}
+
+    <ul>
+
+        {% for color in colors %}
+
+            <li><b>#{{ color }}</b></li>
+            <li style="background-color: #{{ color }}">&nbsp;<br>&nbsp;</li>
+
+        {% endfor %}
+
+    </ul>
+
+{% endblock %}

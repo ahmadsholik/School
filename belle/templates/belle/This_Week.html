@@ -1,0 +1,24 @@
+{% extends 'belle/base.html' %}
+
+{% block body %}
+
+    <ul>
+
+        {% for song in songs %}
+
+            <li>
+                <p>{{ song.day }}. {{ song }}</p>
+                <h6>{{ song.file }}</h6>
+                <audio controls>
+                    <source src="../../media/{{ song.file }}">
+                    <!--I shouldn't be linking to it like this-->
+                </audio>
+            </li>
+
+            <hr>
+
+        {% endfor %}
+
+    </ul>
+
+{% endblock %}
