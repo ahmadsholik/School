@@ -1,5 +1,4 @@
 Need to:
     Get user stuff done
     Figure out how to link to media files
-        {% load staticfiles %} ???
-    Get this piece of shit on GitHub
+        something like {% load staticfiles %} ???
