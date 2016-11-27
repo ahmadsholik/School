@@ -8,4 +8,4 @@ At my school, music plays through the intercom in between classes. The problem i
     I have very little experience in web design  
     The legality of it all (piracy??)  
     I don't know how to use GitHub  
-    *and many more...*  
+    *and many, many more...*  
