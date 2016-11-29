@@ -12,8 +12,7 @@
                 <p>{{ song.day }}. {{ song }}</p>
                 <h6>{{ song.file }}</h6>
                 <audio controls>
-                    <source src="../../media/{{ song.file }}">
-                    <!--I shouldn't be linking to it like this-->
+                    <source src="{{ song.file.url }}">
                 </audio>
 
                 <hr>
