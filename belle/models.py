@@ -5,7 +5,7 @@ class Week(models.Model):
     owner = models.CharField(max_length=50)  # just a placeholder, should be user
 
     def __str__(self):
-        return "Week object: Owner={}".format(self.owner)
+        return "Week object: owner={}".format(self.owner)
 
 
 class Song(models.Model):
@@ -15,4 +15,4 @@ class Song(models.Model):
     day = models.IntegerField(default=0)
 
     def __str__(self):
-        return self.title
+        return "{} - Song number {} of {}'s week".format(self.title, self.day, self.week.owner)

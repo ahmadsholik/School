@@ -9,7 +9,7 @@
         {% for song in songs %}
 
             <li>
-                <p>{{ song.day }}. {{ song }}</p>
+                <p>{{ song.day }}. {{ song.title }}</p>
                 <h6>{{ song.file }}</h6>
                 <audio controls>
                     <source src="{{ song.file.url }}">
