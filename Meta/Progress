@@ -2,3 +2,5 @@ Need to:
     Get user stuff done
     Figure out how to link to media files
         something like {% load staticfiles %} ???
+    When the browser can't load a file (.wav?), django throws an error... but the page still loads
+        maybe I shouldn't fix it?

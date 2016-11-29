@@ -109,7 +109,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# Media stuff, like pictures
+# Media stuff, like songs
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'

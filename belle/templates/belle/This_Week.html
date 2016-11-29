@@ -1,5 +1,7 @@
 {% extends 'belle/base.html' %}
 
+{% block title %}This Week | School.belle{% endblock %}
+
 {% block body %}
 
     <ul>
@@ -13,9 +15,9 @@
                     <source src="../../media/{{ song.file }}">
                     <!--I shouldn't be linking to it like this-->
                 </audio>
-            </li>
 
-            <hr>
+                <hr>
+            </li>
 
         {% endfor %}
 
