@@ -9,8 +9,13 @@
         {% for song in songs %}
 
             <li>
-                <p>{{ song.day }}. {{ song.title }}</p>
-                <h6>{{ song.file }}</h6>
+                <p>
+                    <b>{{ song.day }}. {{ song.title }}</b>
+
+                    <!--Name of file-->
+                    [{{ song.file }}]
+                </p>
+
                 <audio controls>
                     <source src="{{ song.file.url }}">
                 </audio>
